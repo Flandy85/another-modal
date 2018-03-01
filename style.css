@@ -1,0 +1,47 @@
+body {
+	background-color: red;
+	color: #fff;
+}
+button,
+select,
+input {
+	border: 1px solid #ccc;
+	padding: 5px;
+	outline: 0;
+	background-color: #fff;
+}
+button {
+	transition: background-color 250ms linear,
+				color 250ms linear,
+				border 250ms linear;
+	cursor: pointer;
+	border: 1px solid #8c1515;
+}
+button:hover {
+	background-color #8c1515;
+	color: #fff;
+}
+.modal {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #000;
+	width: 50%; 
+	display: none;
+	z-index: 10;
+}
+.modal-title {
+	font-size: 19px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+.modal-content {
+	padding: 20px;
+}
+.modal-footer {
+	border-top: 1px solid #ccc
+	padding: 10px;
+}

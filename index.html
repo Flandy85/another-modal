@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Modal Solution</title>
+
+</head>
+<body>
+	<span class="modal-count"></span>
+
+	<button type="button" onclick="openModal('Title here', 'Content here' );" class="modal-button">Open Modal</button>
+	<div class="modal">
+		<div class="modal-title">{title}</div>
+		<div class="modal-content">{content}</div>
+		<div class="modal-footer">
+			<div class="modal-button modal-close"><button type="button" onclick="closeModal();">Close Modal</button></div>
+		</div>
+	</div> 
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
